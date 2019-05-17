@@ -57,24 +57,19 @@ export const navItems: NavData[] = [
     name: 'Curriculum',
     url: '/curriculum',
     icon: 'icon-drop'
+  },
+  {
+    name: 'Course Offerings',
+    url: 'student',
+    icon: 'icon-drop'
+  },
+  {
+    title: true,
+    name: 'Billing/Fees'
+  },
+  {
+    name: 'Balance Dues',
+    url: '/balancedues',
+    icon: 'icon-drop'
   }
-  // {
-  //   name: 'Course Offerings',
-  //   url: 'student',
-  //   icon: 'icon-drop'
-  // },
-  // {
-  //   title: true,
-  //   name: 'Billing/Fees'
-  // },
-  // {
-  //   name: 'Balance Dues',
-  //   url: 'student',
-  //   icon: 'icon-drop'
-  // },
-  // {
-  //   name: 'Lab Breakages',
-  //   url: 'student',
-  //   icon: 'icon-drop'
-  // }
 ];

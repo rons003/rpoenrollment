@@ -11,6 +11,8 @@ import { RegisterComponent } from './views/register/register.component';
 import { GradesComponent } from './views/grades/grades.component';
 import { CurriculumComponent } from './views/curriculum/curriculum.component';
 import { ScheduleComponent } from './views/schedule/schedule.component';
+import { ProfileComponent } from './views/profile/profile.component';
+import { BalanceDuesComponent } from './views/balance-dues/balance-dues.component';
 
 export const routes: Routes = [
   {
@@ -76,6 +78,20 @@ export const routes: Routes = [
         component: ScheduleComponent,
         data: {
           title: 'Schedule'
+        }
+      },
+      {
+        path: 'profile',
+        component: ProfileComponent,
+        data: {
+          title: 'Profile'
+        }
+      },
+      {
+        path: 'balancedues',
+        component: BalanceDuesComponent,
+        data: {
+          title: 'Balance Dues'
         }
       }
     ]

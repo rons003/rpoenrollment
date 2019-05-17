@@ -42,6 +42,8 @@ import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { GradesComponent } from './views/grades/grades.component';
 import { CurriculumComponent } from './views/curriculum/curriculum.component';
 import { ScheduleComponent } from './views/schedule/schedule.component';
+import { ProfileComponent } from './views/profile/profile.component';
+import { BalanceDuesComponent } from './views/balance-dues/balance-dues.component';
 
 @NgModule({
   imports: [
@@ -66,7 +68,9 @@ import { ScheduleComponent } from './views/schedule/schedule.component';
     RegisterComponent,
     GradesComponent,
     CurriculumComponent,
-    ScheduleComponent
+    ScheduleComponent,
+    ProfileComponent,
+    BalanceDuesComponent
   ],
   providers: [{
     provide: LocationStrategy,
